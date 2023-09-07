@@ -1,0 +1,135 @@
+.bg-banner-img{
+    background-image: url('../images/Gate_sized.jpg');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 7% !important;
+}
+.info-text-header h1{
+    position: absolute;
+    right: 0;
+    left: 20%;
+    bottom: 15%;
+    font-size: 45px;
+}
+
+@media screen and (max-width:425px) {
+    .bg-banner-img {
+        padding: 14% !important;
+        background-position: center right;
+    }
+    .bi-arrow-left {
+        top: -50px;
+        right: 100px;
+
+    }
+}
+
+@media screen and (min-width:320px) {
+    .info-text-header h1 {
+        position: absolute;
+        right: 0;
+        left: 15%;
+        bottom: 5%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .info-text-header h1 {
+        position: absolute;
+        right: 0;
+        left: 25%;
+        bottom: 13%;
+        font-size: 42px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .info-text-header h1 {
+        position: absolute;
+        right: 0;
+        left: 35%;
+        bottom: 13%;
+        font-size: 42px;
+    }
+}
+
+
+.info-title-text{
+    color: #233259;
+}
+.info-title-text::after{
+    content: '';
+    height: 4px;
+    width: 110px;
+    background-color: #C72727;
+    position: absolute;
+}
+
+.card{
+    position: relative;
+    min-height: 300px;
+    align-items: center !important;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    border-radius: 0;
+    border-top-width: 0;
+    border-left: 0;
+    border-bottom-width: 0;
+    background: linear-gradient(to right, transparent, #fff 95%);
+    -webkit-box-shadow: 10px 0px 25px -20px rgba(0,0,0,0.66);
+    -moz-box-shadow: 10px 0px 25px -20px rgba(0,0,0,0.66);
+    box-shadow: 10px 0px 25px -20px rgba(0,0,0,0.66);
+}
+.slick-slide img {
+    display: initial;
+}
+.homeslider{
+    position: relative;
+}
+
+.bi-arrow-left{
+    color: #BD3C3B !important;
+    font-size: 35px;
+    position: absolute;
+    z-index: 99;
+    top: -100px;
+    right: 70px;
+}
+.bi-arrow-right{
+    color: #BD3C3B !important;
+    font-size: 35px;
+    position: absolute;
+    z-index: 99;
+    top: -100px;
+    right: 0;
+}
+.slick-active{
+    width: 295px;
+}
+
+.img-arrow-card-icon::after{
+    content: '';
+    position: absolute;
+    background: url(../images/img-arrow-card-icon.png);
+    width: 30px;
+    height: 62px;
+    top: 0;
+    bottom: 0;
+    right: -30px;
+    margin: auto;
+}
+@media screen and (max-width:425px) {
+    .bi-arrow-left {
+        top: -50px;
+        right: 100px;
+
+    }
+    .bi-arrow-right{
+        top: -50px;
+        right: 30px;
+    }
+
+}
