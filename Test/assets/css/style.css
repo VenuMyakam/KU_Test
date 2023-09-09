@@ -1,10 +1,10 @@
 .info-bg-banner{
     background-image: url('../images/Gate_sized.jpg');
     background-size: cover;
-    background-position: center right;
+    background-position: top right;
     background-repeat: no-repeat;
     position: relative;
-    padding: 3% !important;
+    padding: 2% !important;
 }
 .info-text-header h1{
     position: absolute;

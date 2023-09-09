@@ -17,7 +17,7 @@
 <body>
         <section>
             <div class="container-fluid px-0">
-                <div class="bg-banner-img py-5">
+                <div class="bg-banner-img py-0">
                     <div class="info-text-header text-white">
                         <h1>Academics</h1>
                     </div>
@@ -34,9 +34,8 @@
                                 <h2>The Kaveri Advantage</h2>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="">
-                                
+                        <div class="col-auto">
+                            <div class="arrows-advantage-slider">
                             </div>
                         </div>
                     </div>
@@ -159,6 +158,7 @@
           infinite: false,
           slidesToShow: 3.9,
           slidesToScroll: 1,
+          appendArrows:('.arrows-advantage-slider'),
           prevArrow: '<i class="bi bi-arrow-left text-danger"></i>',
           nextArrow: '<i class="bi bi-arrow-right text-danger"></i>',
           responsive: [
