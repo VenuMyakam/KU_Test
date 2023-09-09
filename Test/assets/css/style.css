@@ -6,13 +6,13 @@
     position: relative;
     padding: 2% !important;
 }
-.info-text-header h1{
+/* .info-text-header h1{
     position: absolute;
     right: 0;
     left: 20%;
     bottom: 15%;
     font-size: 45px;
-}
+} */
 
 @media screen and (max-width:425px) {
     .bg-banner-img {
@@ -63,14 +63,14 @@
 .info-title-text::after{
     content: '';
     height: 4px;
-    width: 110px;
+    width: 60px;
     background-color: #C72727;
     position: absolute;
 }
 
 .card{
     position: relative;
-    min-height: 350px;
+    min-height: 345px;
     align-items: center !important;
     padding-top: 70px;
     padding-bottom: 50px;
@@ -129,14 +129,12 @@
 
 
 /* Navbar  css*/
-.ribbon-nav {
+.nav{
+    background-color: #C72727;
+    width: fit-content;
     text-align: center;
     padding: 25px 0;
-}
-.nav{
-    min-width: 200px;
-    background-color: #C72727;
-    
+    position: relative;
 }
 .nav-pills {
     --bs-nav-pills-border-radius: var(--bs-border-radius);
@@ -160,3 +158,5 @@
 .nav-link:focus, .nav-link:hover {
     color: #fff;
 }
+
+
